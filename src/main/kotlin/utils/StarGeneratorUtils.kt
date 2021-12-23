@@ -1,6 +1,6 @@
 package utils
 
-class StarGeneratorUtils {
+object StarGeneratorUtils {
     fun printStars(totalStar: Int) {
         if (totalStar <= 20) {
             for (i in 0 until totalStar) {
